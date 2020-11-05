@@ -139,7 +139,7 @@ class TweetManager:
         """Invoke an HTTP query to Twitter.
         Should not be used as an API function. A static method.
         """
-        url = "https://twitter.com/search?"
+        url = "https://twitter.com/search"
 
         if not tweetCriteria.topTweets:
             url += "f=tweets&"
