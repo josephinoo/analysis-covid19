@@ -1,6 +1,6 @@
 import os
-keywords = ['coronavirus']
-countries = ['Honduras,Tegucigalpa']
+keywords = ['coronavirus', 'covid19', 'cuarentena', 'covid', 'contagios']
+countries = ['Venezuela,Caracas', 'Colombia,Bogota']
 for country in countries:
     date = country.split(",")[0]
     for keyword in keywords:
